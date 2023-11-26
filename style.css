@@ -156,8 +156,9 @@ span{
     padding: 20px 0px 15px;
     margin-top: 15px;
 }
-.box-img{
+.box-img img{
     height: 300px;
+    width:100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
     background-size: cover;
