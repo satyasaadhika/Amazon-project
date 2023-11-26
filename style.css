@@ -192,11 +192,14 @@ span{
    
 }
 ul li{
+    list-style-type: none;
+}
+ul li a{
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
-    list-style-type: none;
+    text-decoration: none;
 }
 ul{
     margin-top:20px;
