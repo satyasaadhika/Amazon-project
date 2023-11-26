@@ -107,6 +107,8 @@ span{
 .panel-ops a{
     display: inline;
     margin-left: 15px;
+    text-decoration: none;
+    color: white;
 
 }
 .panel-ops{
