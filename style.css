@@ -184,19 +184,22 @@ span{
 }
 .foot-panel2{
     background-color: #222f3d;
-    color: white;
+    color: rgb(216, 213, 213);
     height: 300px;
     display: flex;
     justify-content: space-evenly;
+   
 }
-ul a{
+ul li{
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
+    list-style-type: none;
 }
 ul{
     margin-top:20px;
+    
 }
 .foot-panel3{
     background-color: #222f3d;
