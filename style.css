@@ -129,7 +129,7 @@ span{
     justify-content: center;
 
 }
-.hero-massage{
+.hero-message{
     background-color: white;
     color: #0f1111;
     height: 40px;
@@ -140,7 +140,7 @@ span{
     width: 80%;
     margin-bottom:25px;
 }
-.hero-massage a{
+.hero-message a{
     color: #007185;
 }
 /**shop sections**/
