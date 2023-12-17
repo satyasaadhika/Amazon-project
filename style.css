@@ -239,3 +239,47 @@ ul{
 .copyright{
     font-size:0.7rem;
 }
+@media only screen and (max-width:500px){
+    .navbar{
+       width: 100%;
+    }
+    .nav-signin{
+        display: none;
+    }
+    .nav-return{
+        display: none;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.85rem;
+    }
+
+    .hero-section{
+        background-size: cover;
+        height: 200px;
+        display: flex;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:367px){
+    .shop-section{
+        display: block;
+        width: 300%;
+        height: 100%;
+        flex-direction: row;       
+    }
+    .hero-section{
+        background-size: cover;
+        height: 180px;
+        display: flex;
+        width: 100%;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.85rem;
+    }
+}
