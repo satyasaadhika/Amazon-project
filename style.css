@@ -239,47 +239,79 @@ ul{
 .copyright{
     font-size:0.7rem;
 }
-@media only screen and (max-width:500px){
+
+@media screen and (max-width: 320px) {
     .navbar{
-       width: 100%;
-    }
-    .nav-signin{
-        display: none;
-    }
-    .nav-return{
-        display: none;
-    }
-    h2{
-        font-size: 1rem;
-    }
-    p{
-        font-size: 0.85rem;
+        width: 100%;
+     }
+     .nav-signin{
+         display: none;
+     }
+     .nav-return{
+         display: none;
+     }
+     h2{
+         font-size: 1rem;
+     }
+     p{
+         font-size: 0.85rem;
+     }
+     .panel-ops{
+         width: 50%;
+         font-size: 0.65rem;
+     }  
+     .hero-section{
+         background-size: cover;
+         height: 200px;
+         display: flex;
+         width: 100%;
+     }
+     .hero-message{
+        height: 70px;
+        padding-left: 24px;
+     }
+
+   .shop-section{
+    display:inline-block;
+    width: 300%;
+
     }
 
-    .hero-section{
-        background-size: cover;
-        height: 200px;
-        display: flex;
-        width: 100%;
-    }
-}
-@media only screen and (max-width:367px){
-    .shop-section{
-        display: block;
-        width: 300%;
-        height: 100%;
-        flex-direction: row;       
-    }
-    .hero-section{
-        background-size: cover;
-        height: 180px;
-        display: flex;
-        width: 100%;
-    }
     h2{
-        font-size: 1rem;
+       font-size: 1rem;
     }
-    p{
-        font-size: 0.85rem;
+    
+   p{
+       font-size: 0.85rem;
     }
+   .pages{
+    font-size: 0.5rem;   
+    }
+
+   .copyright{
+    font-size:0.5rem;
+    }
+
 }
+  
+@media screen and (max-width: 768px) {
+    .shop-section{
+        flex-wrap: wrap;
+    }
+    .hero-message{
+        height: 60px;
+        padding-left: 24px;
+     }
+     .pages{
+        font-size: 0.6rem;   
+        }
+    
+       .copyright{
+        font-size:0.6rem;
+        }
+}
+  
+@media screen and (max-width: 1024px) {
+   
+}
+  
