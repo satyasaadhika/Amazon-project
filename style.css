@@ -239,105 +239,6 @@ ul{
 .copyright{
     font-size:0.7rem;
 }
-@media screen and (max-width: 320px) {
-    .navbar{
-        width: 100%;
-        padding: auto;
-        margin: auto;
-     }
-
-    .nav-signin{
-         display: none;
-     }
-    .nav-return{
-         display: none;
-     }
-     h2{
-         font-size: 1rem;
-     }
-     p{
-         font-size: 0.85rem;
-     }
-     .panel-ops{
-         width: 50%;
-         font-size: 0.65rem;
-     }  
-     .hero-section{
-         background-size: cover;
-         height: 200px;
-         display: flex;
-         width: 100%;
-     }
-     .hero-message{
-        height: 70px;
-        padding-left: 24px;
-     }
-
-   .shop-section{
-    display:inline-block;
-    width: 300%;
-
-    }
-
-    h2{
-       font-size: 1rem;
-    }
-    
-   p{
-       font-size: 0.85rem;
-    }
-   .pages{
-    font-size: 0.5rem;   
-    }
-
-   .copyright{
-    font-size:0.5rem;
-    }
-    .foot-panel2{
-        height: auto;
-        width: auto;
-        display: inline-block;
-        justify-content: space-evenly;
-       
-    }
-    ul li a{
-        font-size: 0.80rem;
-        margin-top: 12px;
-       margin-bottom: 10px;
-    }
-
-}
-  
-
-@media screen and (max-width: 768px) {
-    .shop-section{
-        flex-wrap: wrap;
-    }
-    .hero-message{
-        height: 60px;
-        padding-left: 24px;
-     }
-    .pages{
-        font-size: 0.6rem;   
-        }
-    
-    .copyright{
-        font-size:0.6rem;
-        }
-    .nav-search{
-        grid-column: 2;
-        grid-row: 2;
-        grid-column: 2/span 2;
-    }
-    .foot-panel2{
-        height: auto;
-        width: auto;
-        display: inline-block;
-        justify-content: space-evenly;
-       
-    }
-}
-
 @media only screen and (max-width:425px){
     .navbar{
         grid-template-columns: auto auto;
@@ -349,9 +250,34 @@ ul{
         grid-row:3;
         grid-column: 1/span ,3;
     }
+    .nav-signin{
+         display: none;
+     }
+    .nav-return{
+         display: none;
+     }
     .hero-section{
         height:220px ;
     }
+    .hero-message{
+        height: 70px;
+        padding-left: 24px;
+     }
+     .shop-section{
+    display:inline-block;
+    width: 300%
+    }
+    
+     h2{
+         font-size: 1rem;
+     }
+     p{
+         font-size: 0.85rem;
+     }
+     .panel-ops{
+         width: 50%;
+         font-size: 0.65rem;
+     }  
     ul li a{
         display: none;
     }
@@ -365,7 +291,14 @@ ul{
         width: auto;
         margin-right: 20px;
         font-size: 0.80rem;
-    }    
+    }  
+     .pages{
+    font-size: 0.5rem;   
+    }
+
+   .copyright{
+    font-size:0.5rem;
+    }
    
 }
 
@@ -380,10 +313,47 @@ ul{
         grid-row:3;
         grid-column: 1/span ,3;
     }
+     .shop-section{
+        flex-wrap: wrap;
+    }
+    .hero-message{
+        height: 60px;
+        padding-left: 24px;
+     }
+    .pages{
+        font-size: 0.6rem;   
+        }
+    
+    .copyright{
+        font-size:0.6rem;
+        }
 }
 
 @media only screen and (max-width:768px){
+        .navbar{
+        grid-template-columns: auto auto;
+        padding: 10px 5px;
+        height: auto;
+    }
+    .nav-search{
+        grid-column:3;
+        grid-row:3;
+        grid-column: 1/span ,3;
+    }
+     .shop-section{
+        flex-wrap: wrap;
+    }
+    .hero-message{
+        height: 60px;
+        padding-left: 24px;
+     }
+    .pages{
+        font-size: 0.6rem;   
+        }
     
+    .copyright{
+        font-size:0.6rem;
+        }
 }
 
 @media only screen and (max-width:850px){
