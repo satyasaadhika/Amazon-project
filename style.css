@@ -193,6 +193,7 @@ span{
 }
 ul li{
     list-style-type: none;
+    color: white;
 }
 ul li a{
     display: block;
