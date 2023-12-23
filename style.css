@@ -249,8 +249,8 @@ ul{
         flex-wrap: wrap;
     }
     .hero-section{
-        width: 100%;
-        height:220px ;
+        width: auto;
+        height:230px ;
     }
     .hero-message{
         height: 70px;
@@ -265,11 +265,8 @@ ul{
     .box{
         width: 100%;
     }
-     h2{
-         font-size: 1rem;
-     }
      p{
-         font-size: 0.85rem;
+        text-align: center;
      } 
     ul li a{
         display: none;
@@ -308,14 +305,17 @@ ul{
         padding: 10px 5px;
         height: auto;
     }
-    .nav-search{
-        grid-column:3;
-        grid-row:3;
-        grid-column: 1/span ,3;
-    }
     .hero-section{
         width: auto;
-        height:220px ;
+        height:230px;
+
+    }
+    .shop-section{
+        flex-direction: column;
+        margin:5%;
+    } 
+    .box{
+        width: 100%;
     }
     .panel-deals{
         display: none;
@@ -347,6 +347,7 @@ ul{
         font-size:0.6rem;
         }
 }
+
 
 @media only screen and (max-width:768px){
         .navbar{
@@ -382,15 +383,6 @@ ul{
         margin-right: 40px;
         font-size: 0.80rem;
     } 
-}
-
-@media only screen and (max-width:850px){
-    .navbar{
-        flex-wrap: wrap;    
-        padding: 10px 5px;
-        height: auto;
-    }
-    
 }
 
 @media only screen and (max-width:1250px){
