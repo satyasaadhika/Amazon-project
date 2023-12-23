@@ -242,6 +242,7 @@ ul{
 .copyright{
     font-size:0.7rem;
 }
+/* Add responsive design */
 
 @media only screen and (max-width:425px){
     .navbar{
@@ -391,20 +392,3 @@ ul{
         height: auto;
     }
 }   
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
