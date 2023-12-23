@@ -242,6 +242,154 @@ ul{
 .copyright{
     font-size:0.7rem;
 }
+@media only screen and (max-width:425px){
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .hero-section{
+        width: auto;
+        height:230px ;
+    }
+    .hero-message{
+        height: 70px;
+        padding-left: 24px;
+     }
+     .panel-deals{
+        display: none;
+    }
+    .shop-section{
+        flex-direction: column;
+    } 
+    .box{
+        width: 100%;
+    }
+     p{
+        text-align: center;
+     } 
+    ul li a{
+        display: none;
+    }
+    .list-heading{
+        display: none;
+    }
+    .list{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        font-size: 0.90rem;
+        margin-left: 40px;
+    }  
+    .list1{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        margin-right: 40px;
+        font-size: 0.80rem;
+    } 
+     .pages{
+    font-size: 0.6rem;   
+    }
+
+   .copyright{
+    font-size:0.6rem;
+    }  
+}
+
+@media only screen and (max-width:600px){
+    .navbar{
+        flex-wrap: wrap;    
+        padding: 10px 5px;
+        height: auto;
+    }
+    .hero-section{
+        width: auto;
+        height:230px;
+
+    }
+    .shop-section{
+        flex-direction: column;
+        margin:5%;
+    } 
+    .box{
+        width: 100%;
+    }
+    .panel-deals{
+        display: none;
+    } 
+    .list-heading{
+        display: none;
+    }
+    .list{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        font-size: 0.85rem;
+        margin-left: 40px;
+    }  
+    .list1{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        margin-right: 40px;
+        font-size: 0.80rem;
+    } 
+    .pages{
+        font-size: 0.6rem;   
+        }
+    
+    .copyright{
+        font-size:0.6rem;
+        }
+}
+
+
+@media only screen and (max-width:768px){
+        .navbar{
+        flex-wrap: wrap;    
+        padding: 10px 5px;
+        height: auto;
+    }
+    .hero-message{
+        height: 60px;
+        padding-left: 24px;
+        color: #f3f3f3;
+        background-color: #222f3d;
+     }
+     ul li a{
+        display: none;
+    }
+    .list-heading{
+        display: none;
+    }
+    .list{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        font-size: 0.80rem;
+        margin-left: 40px;
+    }  
+    .list1{
+        display: flex;
+        font-weight: 400;
+        padding: 5px;
+        width: auto;
+        margin-right: 40px;
+        font-size: 0.80rem;
+    } 
+}
+
+@media only screen and (max-width:1250px){
+    .navbar{
+        flex-wrap: wrap;    
+        padding: 10px 5px;
+        height: auto;
+    }
+}   
 
 
 
