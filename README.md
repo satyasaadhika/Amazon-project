@@ -1,2 +1,4 @@
-# This is my first project
+# Amazon Clone
+ Home page of Amazon website
+ 
 
